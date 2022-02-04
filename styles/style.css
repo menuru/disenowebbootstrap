@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;900&display=swap');
+
+/*Reseteo CSS*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+nav{
+
+    height: fit-content;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.137);
+    justify-items: stretch;
+}
+
+
+li{
+    list-style: none;
+    font: small;
+    display: inline;
+    padding-left:3px;
+     padding-right:3px;
+}
+
+
+body{
+    background-color: black;
+    position: relative;
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+    
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a.selected{
+    text-decoration: underline;
+}
+
+
+h1{
+    color: black;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    padding-left: 10px;
+    text-shadow: 4px 4px 2px #ffffff;
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+h2{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+    text-shadow: 4px 4px 5px #ffffff15;
+    padding-bottom: 20px;
+}
+
+h2.artistName{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+    padding-top: 20px;
+    color:white;
+    text-align: center;
+    text-shadow: 0px 0px 50px #ffffffa6;
+    padding-bottom: 20px;
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 17px;
+    text-shadow: 4px 4px 2px rgba(212,230,244, 0.1);
+}
+
+main{
+    padding: 20px;
+}
+
+aside{
+    background-color: pink;
+}
+
+img{
+    border-radius: 3px;
+}
+
+hr{
+    background-color: #ffffff;
+}
+
+hr.main {
+    height: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: #000000;
+    border-bottom: 1px dashed rgb(255, 255, 255);
+    margin-top: 55px;
+}
+
+iframe{
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-left: 20%;
+    border: double white;
+}
+
+
+footer{
+    font-family: sans-serif;
+    font-size: 10px;
+    color:rgba(255, 255, 255, 0.699);
+    text-align: right;
+    padding-right: 10px;
+}
+
+textarea{
+    border: groove;
+    border-radius: 10px;
+    resize: none;
+    font-size: 17px;
+}
+
+.separador{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+
+.gifdeco{
+    width: 100vw;
+    height: 45px;
+}
+
+.imgdrumcode{
+    filter: invert(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.main-bg{
+    background-color: black;
+    border-radius:50px;
+    border:solid white;
+    padding-bottom: 50px;
+    backdrop-filter:blur(200px);
+    background-color: rgba(99, 99, 99, 0.05);
+
+}
+
+.img-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.img-date{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+
+.text{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+.textInfo{
+    font-size: 15px;
+    text-align: end;
+    padding-right: 20px;
+}
+
+.musicGenre{
+    color: rgb(255, 255, 255);
+}
+
+
+.fields{
+    border: 15px solid white;
+    border-radius: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+
+div.terms{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-shadow: 0px 0px 22px rgb(255, 255, 255);
+    color: grey;
+}
+
+.containerFormButton{
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+/* Flexbox */
+.containerForm {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
+/* Animaciones */
+
